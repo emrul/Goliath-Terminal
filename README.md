@@ -1,12 +1,12 @@
 # Goliath-Terminal
 Convenience Java class for executing CLI commands
 ---
-# Features
+## Features
 * Easily read from command line standard and error outputs via Scanner objects
 * Easily write to the command line via the PrintWriter object
 * Set current working directory of the Terminal object instance
 ---
-# Basic Usage breakdown
+## Basic Usage breakdown
 
 ```
 Terminal shell = new Terminal(); // create the terminal instance
@@ -19,5 +19,5 @@ while(shell.getCommandReader().hasNextLine()) // line print loop
 shell.terminate(); // safely close and terminate the shell
 ```
 ---
-# Compatibility
+## Compatibility
 Excecuting programs not in Windows's `path` must have `cmd /c` in order to execute. 
